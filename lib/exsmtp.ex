@@ -3,6 +3,7 @@ defmodule Exsmtp do
 
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
+    IO.puts("Starting exsmtp")
 
     children = [
       worker(Exsmtp.Server, [], restart: :transient)
