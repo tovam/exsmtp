@@ -1,3 +1,6 @@
-%{"eiconv": {:git, "git://github.com/zotonic/eiconv.git", "644fb5e7bd6640fbd073f4d28957914ea979aea0", []},
-  "gen_smtp": {:git, "git://github.com/Vagabond/gen_smtp.git", "fb667c6ed875be1ae8d5ea0fa74eb9043fd7ecc7", []},
-  "uuid": {:hex, :uuid, "1.0.0"}}
+%{
+  "eiconv": {:git, "https://github.com/zotonic/eiconv.git", "20339735511d769912e4387fe3f7667a14e4bc4f", []},
+  "gen_smtp": {:git, "https://github.com/Vagabond/gen_smtp.git", "3365b9ea0ce50a11c361e7e40e233f5dd6575fa6", []},
+  "ranch": {:hex, :ranch, "1.6.1", "2609724c9a7e163ca716a46c9087e037db4262935f5d866122ba158ed917c233", [:rebar3], [], "hexpm", "26814f5d348c620975bd889c6a5b587d622b27b9825d581b9238e623e6da6ee6"},
+  "uuid": {:hex, :uuid, "1.1.8", "e22fc04499de0de3ed1116b770c7737779f226ceefa0badb3592e64d5cfb4eb9", [:mix], [], "hexpm", "c790593b4c3b601f5dc2378baae7efaf5b3d73c4c6456ba85759905be792f2ac"},
+}
