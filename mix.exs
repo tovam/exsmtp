@@ -11,7 +11,7 @@ defmodule Exsmtp.Mixfile do
   end
 
   def application do
-    [applications: [:logger],
+    [extra_applications: [:logger],
       mod: {Exsmtp, []}]
   end
 
