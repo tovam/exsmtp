@@ -33,7 +33,8 @@ defmodule Exsmtp.Mixfile do
     [
       {:eiconv,    github: "zotonic/eiconv"},
       {:gen_smtp,  github: "Vagabond/gen_smtp"},
-      { :uuid, "~> 1.0" }
+      { :uuid, "~> 1.0" },
+      {:logger_file_backend, "~> 0.0.10"},
     ]
   end
 end
