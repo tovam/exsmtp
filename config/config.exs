@@ -23,3 +23,8 @@ use Mix.Config
 #
 #     import_config "#{Mix.env}.exs"
 config :exsmtp, :port, (System.get_env("EXSMTP_SMTP_PORT") || 2525)
+config :logger,
+    backends: [{LoggerFileBackend, :debug_log}, :console]
+config :logger, :debug_log,
+    path: "debugLog.log",
+    level: :debug
