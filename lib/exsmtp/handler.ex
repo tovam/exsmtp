@@ -47,7 +47,7 @@ defmodule Exsmtp.Handler do
     unique_id = UUID.uuid4()
     Logger.debug("Message from #{from} to #{to} with body length #{byte_size(data)} queued as #{unique_id}")
     mail = parse_mail(data, state, unique_id)
-    IO.inspect mail
+    Logger.info("#{inspect mail}")
     {:ok, unique_id, state}
   end
 
